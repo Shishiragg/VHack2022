@@ -1,4 +1,4 @@
-package infytq;
+
 
 import java.util.*;
 
@@ -8,7 +8,7 @@ class VHack {
 
 	public static void main(String args[]) {
 		
-		//Dynamic Programming :- Storing already computed distances(cost) between characters
+		//Dynamic Programming :- For storing already computed distances(cost) between characters
 		long[][] distance = new long[26][26];
 		
 		//Taking User Input
